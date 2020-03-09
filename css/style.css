@@ -1180,8 +1180,8 @@ input[type="text"] {
   border: 2px solid rgb(10, 96, 56);
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
-  background: #rgb(10, 96, 56) !important;
-  border-color: #rgb(10, 96, 56) !important;
+  background: rgb(10, 96, 56) !important;
+  border-color: rgb(10, 96, 56) !important;
 }
 .btn-warning.btn-outline {
   background: transparent;
