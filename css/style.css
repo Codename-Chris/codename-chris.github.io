@@ -724,6 +724,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   display: table;
   overflow: hidden;
+  border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
   .work {
@@ -1281,7 +1282,8 @@ input[type="text"] {
 
 .col-padding {
   padding: 6px !important;
-  margin: 30px !important;
+  margin: 45px !important;
+  /* padding-left: 100px; */
 }
 
 .fh5co-loader {
