@@ -348,10 +348,11 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
 }
 .info li .second-block {
-  width: 60%;
+  width: 115%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
   overflow-y: scroll !important;
+  font-size: 14px;
 }
 
 .fh5co-social-icons {
@@ -1280,7 +1281,7 @@ input[type="text"] {
 
 .col-padding {
   padding: 6px !important;
-  margin: 35px !important;
+  margin: 30px !important;
 }
 
 .fh5co-loader {
