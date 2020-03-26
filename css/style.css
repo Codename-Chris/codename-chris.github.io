@@ -84,9 +84,12 @@ h1, h2, h3, h4, h5, h6, figure {
   background:  rgb(10, 96, 56);
 }
 
-/* #fh5co-header {
-  height: 615px !important;
-} */
+#fh5co-header {
+  height: 3% !important;
+}
+header {
+  height: 3% !important;
+}
 
 #fh5co-header,
 .fh5co-cover {
@@ -94,7 +97,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  height: 600px;
+  /* height: 600px; */
   width: 100%;
 }
 #fh5co-header .overlay,
@@ -331,6 +334,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   text-align: center;
   margin-top: -20px;
+  padding-bottom: 50px;
 }
 @media screen and (max-width: 768px) {
   .info {
