@@ -363,6 +363,7 @@ figure {
 
 img {
   vertical-align: middle;
+  height: 65px;
 }
 
 .img-responsive {
@@ -908,6 +909,7 @@ pre code {
 }
 
 .row {
+  text-align: center;
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -1360,9 +1362,9 @@ pre code {
     width: 25%;
   }
 
-  .col-md-4 {
+  /* .col-md-4 {
     width: 33.33333%;
-  }
+  } */
 
   .col-md-5 {
     width: 41.66667%;

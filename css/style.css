@@ -84,6 +84,10 @@ h1, h2, h3, h4, h5, h6, figure {
   background:  rgb(10, 96, 56);
 }
 
+#fh5co-header {
+  height: 615px !important;
+}
+
 #fh5co-header,
 .fh5co-cover {
   background-color: transparent;
@@ -325,6 +329,8 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   width: 90%;
   float: left;
+  text-align: center;
+  margin-top: -20px;
 }
 @media screen and (max-width: 768px) {
   .info {
@@ -341,14 +347,14 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-top: 0;
 }
 .info li .first-block {
-  width: 40%;
+  width: 112%;
   display: inline-block;
   float: left;
   color: #000;
   font-weight: bold;
 }
 .info li .second-block {
-  width: 115%;
+  width: 112%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
   overflow-y: scroll !important;
@@ -412,16 +418,16 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about .fh5co-social-icons li a:hover {
   background:  rgb(10, 96, 56);
 }
-
+/* 
 .fh5co-heading {
-  margin-bottom: 5em;
-}
+  margin-bottom: 5em; */
+/* } */
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   line-height: 1.5;
   color: #000;
 }
@@ -708,6 +714,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .chart span strong {
   display: block;
+  margin-top: -10px;
 }
 .chart canvas {
   position: absolute;
@@ -1330,10 +1337,23 @@ input[type="text"] {
 .resume-btn {
   background-color: rgb(10, 96, 56);
   color: white;
+  border-radius: 5px;
 }
 
 .resume-btn > a {
   color: white;
+}
+
+.projects-btn {
+  border-radius: 5px;
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.projects-btn > a {
+  color: white;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
