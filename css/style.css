@@ -107,7 +107,9 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  background:  rgb(10, 96, 56);
+  /* background:  rgb(10, 96, 56); */
+  background-image: url(../images/trees.jpg);
+  background-position-y: bottom;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -196,7 +198,7 @@ header {
 }
 #fh5co-header .display-tc h3,
 .fh5co-cover .display-tc h3 {
-  font-size: 16px;
+  font-size: 20px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h3,
